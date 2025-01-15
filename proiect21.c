@@ -7,10 +7,10 @@
 
 #define NR_DOCTORI 3
 #define TIMP_GENERARE 30
-#define INTERVAL_MINIM_PACIENTI 1
+#define INTERVAL_MINIM_PACIENTI 0
 #define INTERVAL_MAXIM_PACIENTI 3
-#define TIMP_MINIM_CONSULTATIE 2
-#define TIMP_MAXIM_CONSULTATIE 5
+#define TIMP_MINIM_CONSULTATIE 4
+#define TIMP_MAXIM_CONSULTATIE 9
 
 sem_t doctori_disponibili;
 pthread_mutex_t mutex_doctor[NR_DOCTORI];
