@@ -9,7 +9,7 @@
 
 ### Description
 
-A multithreaded application that utilizes semaphores, mutexes and random wait / consultation time to simulate a medical
+Multithreaded application that utilizes semaphores, mutexes and random wait / consultation time to simulate a medical
 cabinet with multiple doctors handling patient consultations.
 
 ### Requirements
