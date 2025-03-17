@@ -1,4 +1,32 @@
 # Medical Cabinet - C
 ## Sisteme de Operare (2024-2025)
 
-21. SimulareCabinet (1 student) – Sa se implementeze un program care simuleaza activitatea dintr-un cabinet medical: vor fi create un numar dat de thread-uri pacienti care vor astepta pentru eliberarea unor resurse reprezentand doctorii (pot fi niste structuri iar consultatia sa consiste blocarea acelei structuri si afisarea id-ului doctorului). Clientii vor ocupa resursa doctor pentru o perioada random care sa nu depaseasca o limita data. Fiecare pacient va fi generat la un interval aleator pentru o perioada data de timp. Dupa consultatie, pacientul isi va afisa timpul de asteptare si timpul consultatiei.
+## Table of contents
++ [Description](#description)
++ [Requirements](#requirements)
++ [Setup](#setup)
++ [Pictures](#pictures)
+
+### Description
+
+A multithreaded application that utilizes semaphores, mutexes and random wait / consultation time to simulate a medical
+cabinet with multiple doctors handling patient consultations.
+
+### Requirements
+
++ Check if you have WSL installed \(`wsl --list --verbose`\). If not, install it using this command: `wsl --install -d Ubuntu`
+
+### Setup
+
++ `git clone https://github.com/mateiungureanu/SO-2024-proiect`
++ `cd SO-2024-proiect`
++ `wsl`
++ Choose a username and password
++ `sudo apt update`
++ `sudo apt install build-essential`
++ `gcc -o proiect21 proiect21.c`
++ `./proiect21`
+
+### Pictures
+
+![Running](pictures/poza.png)
