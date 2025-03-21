@@ -14,7 +14,7 @@ cabinet with multiple doctors handling patient consultations.
 
 ### Requirements
 
-+ Check if you have WSL installed \(`wsl --list --verbose`\). If not, install it using this command: `wsl --install -d Ubuntu`
++ Check if you have WSL installed \(`wsl --list --verbose`\). If not, install it using this command: `wsl --install -d Ubuntu`, then restart your machine.
 
 ### Setup
 
